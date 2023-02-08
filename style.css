@@ -2,44 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#event {
-  background-image: url("./src/tc_event_sm.webp");
-  background-size: cover;
-  background-position: center 45%;
-
-  @media screen(md) {
-    background-image: url("./src/tc_event_md.webp");
-  }
-  @media screen(lg) {
-    background-image: url("./src/tc_event_lg.webp");
-  }
-  @media screen(xl) {
-    background-image: url("./src/tc_event_xl.webp");
-  }
-  @media screen(2xl) {
-    background-image: url("./src/tc_event_2xl.webp");
-  }
-}
-
-#hero {
-  background-image: url("./src/tc_other_sm.webp");
-  background-size: cover;
-  background-position: center;
-
-  @media screen(md) {
-    background-image: url("./src/tc_other_md.webp");
-  }
-  @media screen(lg) {
-    background-image: url("./src/tc_other_lg.webp");
-  }
-  @media screen(xl) {
-    background-image: url("./src/tc_other_xl.webp");
-  }
-  @media screen(2xl) {
-    background-image: url("./src/tc_other_2xl.webp");
-  }
-}
-
 .background-tint {
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
